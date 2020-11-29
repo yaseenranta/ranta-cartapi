@@ -1,0 +1,26 @@
+{
+    "name": "ranta/cart-api",
+    "description": "extended version of freshbitsweb/laravel-cart-manager for api",
+    "type": "library",
+    "require": {
+        "freshbitsweb/laravel-cart-manager": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Yaseen",
+            "email": "yaseenranta76@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ranta\\CartApi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
+
+
