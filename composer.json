@@ -20,6 +20,13 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ranta\\CartApi\\CartApiServiceProvider"
+            ]
+        }
     }
 }
 
